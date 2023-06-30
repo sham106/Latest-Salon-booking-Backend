@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/appointment")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://cutesalon.vercel.app", allowCredentials = "true")
 public class AppointmentController {
     private final AppointmentService appointmentService;
     private final EmailSendServiceImp emailSendServiceImp;
